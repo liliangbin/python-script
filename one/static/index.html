@@ -14,7 +14,7 @@
     <link href="css/css.css" rel="stylesheet" type="text/css">
     <script type="text/javascript">
         window.onload = function () {
-            $.getJSON("../articleexport.json", function (data) {
+            $.getJSON("articleexport.json", function (data) {
                 $.each(data, function (i, item) {
                     $("#disp").append("<img src='" + item.imgUrl[0] + "' class='imgg'>");
                     $("#disp").append("<p class='text-content'>" + item.text[0] + "</p>");
@@ -29,7 +29,7 @@
 <body>
 <div class="container">
     <!-- Content here -->
-    <p class="head">Ã¿ÌìÒ»¾äĞÄÀï»°</p>
+    <p class="head">æ¯æ—¥ä¸€å¥</p>
     <div id="disp"></div>
 
 </div>
